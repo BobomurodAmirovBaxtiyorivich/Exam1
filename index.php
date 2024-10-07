@@ -84,7 +84,7 @@
             <tr class="tr">
                 <td class="td"><?= $value['id']?></td>
                 <td class="td"><?= $value['name']?></td>
-                <td class="td"><a href="fanEdit.php?id_edit=<?= $value['id']?>">Edit</a> <a href="fanDel.php?id_del=<?= $value['id']?>">Delete</a></td>
+                <td class="td"><a href="Edit.php?id_edit=<?= $value['id']?>">Edit</a> <a href="Delete.php?id_del=<?= $value['id']?>">Delete</a></td>
             </tr>
         <?php }
         ?>
